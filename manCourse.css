@@ -1,0 +1,293 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 27, 2019, 11:22:24 PM
+    Author     : user
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 27, 2019, 6:21:56 AM
+    Author     : user
+*/
+#headername{
+    margin:0%;
+    color:whitesmoke;
+    font-family: fantasy;
+    font-style: initial;
+    font-size:130px;
+    align-items:center;
+    margin-top: 0;
+    display: inline-block;
+    align-content: center;
+}
+
+#hdclr{
+    background-color: ghostwhite;
+    position: relative;
+}
+
+#bodylayout{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    display:inline-block;
+    cursor: pointer;
+    margin-left: 7px;
+    
+}
+.bar1,.bar2,.bar3{
+    background-color: #777;
+    width:35px;
+    height: 5px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/*rotate first bar*/
+.change .bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+/*fadeout the second bar*/
+.change bar2{
+    opacity: 0;
+}
+/*rotate last bar*/
+.change .bar3{
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: darkgrey; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: grey;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.topnav {
+  background-color: ghostwhite;
+  overflow: hidden;
+  margin-left: 1200px;
+  margin-top: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.bg5 {
+  background-image: url("Images/pexels-photo-1603901.jpeg");
+  min-height: 700px;
+  background-size: 100%;
+}
+.bg6 {
+  margin-top: 100px;
+  background-size: 800px, 800px;
+  display: block;
+  margin-left: 20px;
+}
+.bg7 {
+  margin-top: 100px;
+  background-size: 500px, 800px;
+  display: block;
+  margin-left: 100px;
+}
+.bg8{
+  margin-top: 100px;
+  background-size: 500px, 800px;
+  display: block;
+  margin-left: 100px;
+}
+.bg9 {
+  margin-top: 10px;
+  background-size: 500px, 800px;
+  display: block;
+  margin-left: 340px;
+}
+.bg10{
+  margin-top: 10px;
+  background-size: 500px, 800px;
+  display: block;
+  margin-left: 150px;
+}
+.pizza_h{
+    color: #111;
+    font-size: 27px;
+    font-family: Century Gothic;
+    align-content: center;
+    width: 400px;
+    margin-left: 130px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.pizza_desc{
+    color: #111;
+    font-size: 18px;
+    font-family: Century Gothic;
+    align-content: center;
+    text-align: justify;
+    width: 380px;
+    margin-left: 110px;
+    padding: 10px 10px;
+    height:300px;
+}
+.stakes_h{
+    color: #111;
+    font-size: 27px;
+    font-family: Century Gothic;
+    align-content: center;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.stakes_desc{
+    color: #111;
+    font-size: 18px;
+    font-family: Century Gothic;
+    align-content: center;
+    text-align: justify;
+    width: 380px;
+    margin-left: 80px;
+    padding: 10px 10px;
+    height:300px;
+}
+.rchick_h{
+    color: #111;
+    font-size: 27px;
+    font-family: Century Gothic;
+    align-content: center;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.rchick_desc{
+    color: #111;
+    font-size: 18px;
+    font-family: Century Gothic;
+    align-content: center;
+    text-align: justify;
+    width: 380px;
+    margin-left: 80px;
+    padding: 10px 10px;
+    height:300px;
+}
+.asian_h{
+    color: #111;
+    font-size: 27px;
+    font-family: Century Gothic;
+    align-content: center;
+    width: 400px;
+    margin-left: 390px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.asian_desc{
+    color: #111;
+    font-size: 18px;
+    font-family: Century Gothic;
+    align-content: center;
+    text-align: justify;
+    width: 380px;
+    margin-left: 350px;
+    padding: 10px 10px;
+    height:300px;
+}
+.frice_h{
+    color: #111;
+    font-size: 27px;
+    font-family: Century Gothic;
+    align-content: center;
+    width: 400px;
+    margin-left: 150px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.frice_desc{
+    color: #111;
+    font-size: 18px;
+    font-family: Century Gothic;
+    align-content: center;
+    text-align: justify;
+    width: 380px;
+    margin-left: 100px;
+    padding: 10px 10px;
+    height:300px;
+}
+.cartLink{
+    font-size: 20px;
+    font-family: century gothic;
+    font-weight: bold;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 218px;
+}
+footer { 
+  display: block;
+}
+
